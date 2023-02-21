@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { FaYoutube, FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
+const socialLinks = [
+  { name: "facebook", icon: FaFacebookF, link: "https://facebook.com" },
+  { name: "youtube", icon: FaYoutube, link: "https://youtube.com" },
+  { name: "instagram", icon: FaInstagram, link: "https://instagram.com" },
+  { name: "twitter", icon: FaTwitter, link: "https://twitter.com" },
+];
+
 const Navbar = () => {
   return (
     <nav className="">
@@ -21,18 +28,14 @@ const Navbar = () => {
         </div>
         <div className="flex justify-between">
           <span className="ml-8">Follow us</span>
-          <Link className="ml-4" href="#">
-            <FaYoutube />
-          </Link>
-          <Link className="ml-4" href="#">
-            <FaFacebookF />
-          </Link>
-          <Link className="ml-4" href="#">
-            <FaTwitter />
-          </Link>
-          <Link className="ml-4" href="#">
-            <FaInstagram />
-          </Link>
+          {socialLinks.map((item) => {
+            const Icon = item.icon;
+            return (
+              <Link key={item.name} className="ml-4" href={item.link}>
+                <Icon />
+              </Link>
+            );
+          })}
         </div>
       </div>
 
