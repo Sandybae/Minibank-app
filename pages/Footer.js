@@ -1,5 +1,11 @@
+import FirstFooter from "../components/footer/FirstFooter";
+
 const Footer = () => {
-  return <div></div>;
+  return (
+    <div>
+      <FirstFooter />
+    </div>
+  );
 };
 
 export default Footer;
