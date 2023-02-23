@@ -4,8 +4,8 @@ import { FaRegComments, FaYoutube, FaFacebookF, FaTwitter, FaInstagram, FaLinked
 const SecondFooter = () => {
     return ( 
         <div className='bg-slate-900 p-4'>
-            <div className='flex justify-around border-b border-gray-400 py-7'>
-                <div className='flex'>
+            <div className='md:flex md:justify-around border-b border-gray-400 py-7'>
+                <div className='collapse md:flex md:visible'>
                     <input
                        className='border rounded-l-sm'
                        type="text"
@@ -15,7 +15,7 @@ const SecondFooter = () => {
                     <Link href="#"><FaSearch/></Link>
                     </div>
                 </div>
-                <div className='flex gap-5 text-white text-2xl'>
+                <div className='flex justify-center gap-10 text-white text-3xl'>
                     <a href='https://facebook.com/live-chat'><FaRegComments/></a>
                     <a href='https://youtube.com'><FaYoutube/></a>
                     <a href='https://facebook.com'><FaFacebookF/></a>
@@ -24,7 +24,7 @@ const SecondFooter = () => {
                     <a href='https://linkedin.com'><FaLinkedin/></a>
                 </div>
             </div>
-            <div className='flex justify-end items-center text-blue-400 p-3 gap-2'>
+            <div className='flex justify-center md:justify-end items-center text-blue-400 p-3 gap-2'>
                 <FaRegCopyright/>
                 <p>MINIBANK 2023</p>
             </div>
