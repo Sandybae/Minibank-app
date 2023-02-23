@@ -11,13 +11,13 @@ const SixthPage = () => {
             <button className="bg-gray-700 text-white text-sm rounded text-bold hover:border hover:border-white p-3 mx-2">DOWNLOAD PDF FORM</button>
           </div>
           <div className="w-1/2 py-10 pl-20">
-             <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Debit Card</div>
-             <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Internet Banking</div>
-             <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Mobile Banking</div>
-             <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Standing Orders</div>
-             <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Relationship Manager</div>
-             <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>International transfers</div>
-             <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Access to your money in 33 countries</div>
+             <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-3/5"><FaCheck className="mr-5 text-blue-300"/>Debit Card</div>
+             <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-3/5"><FaCheck className="mr-5 text-blue-300"/>Internet Banking</div>
+             <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-3/5"><FaCheck className="mr-5 text-blue-300"/>Mobile Banking</div>
+             <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-3/5"><FaCheck className="mr-5 text-blue-300"/>Standing Orders</div>
+             <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-3/5"><FaCheck className="mr-5 text-blue-300"/>Relationship Manager</div>
+             <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-3/5"><FaCheck className="mr-5 text-blue-300"/>International transfers</div>
+             <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-3/5 text-start"><FaCheck className="mr-5 text-blue-300"/>Access to your money in 33 countries</div>
           </div>
        </div>
    );
