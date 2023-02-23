@@ -3,7 +3,7 @@ const LabelIcon = ({ text, icon, ...props }) => {
   return (
     <button
       {...props}
-      className="flex gap-2 items-center  hover:bg-white hover:text-blue-500"
+      className="flex gap-2 items-center  hover:bg-white hover:text-violet-900 p-3"
     >
       <span>{text}</span>
       {icon ? <Icon /> : null}
