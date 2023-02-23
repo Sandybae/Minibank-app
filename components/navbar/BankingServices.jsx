@@ -16,7 +16,7 @@ const BankingServices = () => {
           <Link  href="/" key={list.name} className="px-10  hover:bg-white hover:text-blue-800 p-3"><FaHome/></Link>
           { servicesAvailable.map(list => {
             return (
-                <button className=" hover:bg-white hover:text-blue-800 p-3">{ list.name} { list.icon }</button>
+                <button key={list.name} className="hover:bg-white hover:text-blue-800 p-3">{ list.name} { list.icon }</button>
             )
           })
           }
