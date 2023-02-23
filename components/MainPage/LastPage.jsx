@@ -4,14 +4,14 @@ import { FaTelegramPlane, FaFacebookF, FaTwitter, FaArrowCircleUp } from "react-
 const LastPage = () => {
     return ( 
         <div className="flex justify-between m-10 text-gray-400 text-xl">
-            <div className="flex gap-4">
+            <div className="flex gap-4 items-center">
                 <Link href="#">Share</Link>
-                <a href="https://telegram.com" className="mt-2"><FaTelegramPlane/></a>
-                <a href="https://facebook.com" className="mt-2"><FaFacebookF/></a>
-                <a href="https://twitter.com" className="mt-2"><FaTwitter/></a>
+                <a href="https://telegram.com"><FaTelegramPlane/></a>
+                <a href="https://facebook.com"><FaFacebookF/></a>
+                <a href="https://twitter.com"><FaTwitter/></a>
             </div>
-            <div className="flex gap-4">
-                <a href="#" className="mt-2"><FaArrowCircleUp/></a>
+            <div className="flex gap-4 items-center">
+                <a href="#"><FaArrowCircleUp/></a>
                 <p>Back to the top</p>
             </div>
         </div>
