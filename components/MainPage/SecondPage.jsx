@@ -12,10 +12,10 @@ const SecondPage = () => {
                 <button className="bg-cyan-900 text-white text-sm rounded text-bold hover:border hover:border-white p-3 mx-2">DOWNLOAD PDF FORM</button>
             </div>
             <div className="w-1/2 py-10 pl-20">
-                <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Debit Card</div>
-                <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Internet Banking</div>
-                <div className="flex text-xl mx-5 py-5"><FaCheck className="mr-5 text-blue-300"/>Mobile Banking</div>
-                <div className="flex text-xl mx-5 py-5 border-b-white"><FaCheck className="mr-5 text-blue-300"/>Standing Orders</div>
+                <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-2/5"><FaCheck className="mr-5 text-blue-300"/>Debit Card</div>
+                <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-2/5"><FaCheck className="mr-5 text-blue-300"/>Internet Banking</div>
+                <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-2/5"><FaCheck className="mr-5 text-blue-300"/>Mobile Banking</div>
+                <div className="flex text-xl mx-5 py-5 border-b border-gray-400 w-2/5"><FaCheck className="mr-5 text-blue-300"/>Standing Orders</div>
             </div>
         </div>
      );
