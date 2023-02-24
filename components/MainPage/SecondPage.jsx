@@ -1,6 +1,8 @@
 import { FaCheck } from "react-icons/fa";
 
+
 const SecondPage = () => {
+
     return ( 
         <div className="items-left md:flex md:justify-around text-center  hover:bg-cyan-700 p-5">
             <div className="items-left md:w-1/2 md:text-left md:pl-20">
