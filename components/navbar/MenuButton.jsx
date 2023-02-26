@@ -1,9 +1,21 @@
-import { FaCaretRight } from 'react-icons/fa';
+import { FaCaretRight, FaBars } from 'react-icons/fa';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const MenuButton = () => {
+
+   const toggle = () => {
+      setOpen(!open);
+    }
+   const [open, setOpen] = useState(false);
     return ( 
         <div>
+           <Link href="#" onClick={toggle}>
+            <FaBars className="ml-3" />
+            <p>Menu</p>
+           </Link>
+          {open && 
+
             <div className='bg-white text-violet-800 transiton'>
                 <div>
                    <Link href="/" className='flex justify-between m-2 p-2 text-lg border-b border-gray-300 hover:text-gray-800 hover:pl-4'>
@@ -35,7 +47,7 @@ const MenuButton = () => {
                 Help and Security <FaCaretRight />
                </Link>
                 </div>
-            </div>
+            </div> }
         </div>
      );
 }
