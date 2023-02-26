@@ -6,6 +6,7 @@ import BankingServices from "../components/navbar/BankingServices";
 import { FaLock, FaPhone, FaBars } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import MenuButton from "../components/navbar/MenuButton";
+import SmallScreen from "../components/navbar/SmallScreen";
 
 const Navbar = () => {
   useEffect(() => {
@@ -20,8 +21,6 @@ const Navbar = () => {
       window.removeEventListener("resize", showOnLarge);
     };
   }, []);
-
-  const [open, setOpen] = useState(false);
 
   return (
     <nav>
@@ -38,7 +37,7 @@ const Navbar = () => {
           <Link className="p-3 font-extrabold text-2xl md:text-4xl" href="#">
             MINIBANK
           </Link>
-          <MenuButton />
+          <SmallScreen />
         </div>
         {/* <div className="flex justify-around">
           <Interacts />
