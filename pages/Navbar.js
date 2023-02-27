@@ -9,43 +9,29 @@ import MenuButton from "../components/navbar/MenuButton";
 import SmallScreen from "../components/navbar/SmallScreen";
 
 const Navbar = () => {
-  // useEffect(() => {
-  //   function showOnLarge() {
-  //     if (window.innerWidth > 765) {
-  //       setOpen(true);
-  //     }
-  //   }
-  //   window.addEventListener("resize", showOnLarge);
-
-  //   return () => {
-  //     window.removeEventListener("resize", showOnLarge);
-  //   };
-  // }, []);
-
   return (
     <nav>
-      <SmallScreen />
-      {/* <div className="flex justify-around p-2 text-s text-gray-900 bg-violet-200">
+      <div className="flex justify-around p-2 text-s text-gray-900 bg-violet-200">
         <div>
           <BankingType />
         </div>
         <div>
           <SocialLinks />
-        </div> */}
-      {/* </div> */}
-      {/* <div className="flex justify-around bg-violet-900 p-8 text-gray-200 border-b border-gray-500">
+        </div>
+      </div>
+      <div className="flex justify-around bg-violet-900 p-8 text-gray-200 border-b border-gray-500">
         <div className="flex flex-1 justify-between gap-20">
           <Link className="p-3 font-extrabold text-2xl md:text-4xl" href="#">
             MINIBANK
           </Link>
-        </div> */}
-      {/* <div className="flex justify-around">
+        </div>
+        <div className="flex justify-around">
           <Interacts />
-        </div> */}
-      {/* </div> */}
-      {/* <div>
+        </div>
+      </div>
+      <div>
         <BankingServices />
-      </div> */}
+      </div>
     </nav>
   );
 };

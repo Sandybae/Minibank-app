@@ -1,5 +1,5 @@
+import Link from "next/link";
 import { FaCheck } from "react-icons/fa";
-
 
 const SecondPage = () => {
 
@@ -10,7 +10,9 @@ const SecondPage = () => {
                 <p className="p-3 text-left font-bold text-4xl my-10 md:w-3/5">Keep track of your finances 
                 with 24/7 access to your money, 
                 including electronic banking</p>
-                <button className="bg-cyan-900 text-white text-sm text-bold rounded hover:border hover:border-white p-3 mx-2">APPLY NOW</button>
+                <Link href={'/applynow'} className="bg-cyan-900 text-white text-sm text-bold rounded hover:border hover:border-white p-3 mx-2">
+                    APPLY NOW 
+                </Link>
                 <button className="bg-cyan-900 text-white text-sm rounded text-bold hover:border hover:border-white p-3 mx-2">DOWNLOAD PDF FORM</button>
             </div>
             <div className="items-left md:w-1/2 py-10 md:pl-20">
