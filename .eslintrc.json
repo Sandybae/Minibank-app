@@ -1,3 +1,21 @@
 {
-  "extends": ["next/core-web-vitals", "airbnb"]
+  "extends": ["airbnb", "next", "next/core-web-vitals"],
+  "rules": {
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "labelAttributes": ["label"],
+        "depth": 3
+      }
+    ],
+    "react/prop-types": [0],
+    "react/jsx-props-no-spreading": [0],
+    "no-console": "off",
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false
+      }
+    ]
+  }
 }
