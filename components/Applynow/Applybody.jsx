@@ -43,7 +43,7 @@ function Applybody() {
         </div>
         <div className="flex justify-center">
           <button type="button" className="m-3 border rounded-md border-gray-300 bg-white text-violet-500 hover:bg-gray-300 hover:text-violet-500 px-6 py-2">Back</button>
-          <button type="button" className="m-3 border rounded-md border-0 bg-violet-500 text-white hover:bg-violet-700 px-6 py-2">Next</button>
+          <button type="button" className="m-3 border-0 rounded-md bg-violet-500 text-white hover:bg-violet-700 px-6 py-2">Next</button>
         </div>
         <div className="flex justify-center m-8 gap-2">
           <p className="text-gray-600">Have an account?</p>
