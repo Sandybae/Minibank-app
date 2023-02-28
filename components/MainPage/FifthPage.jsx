@@ -1,5 +1,6 @@
 import { FaCheck } from 'react-icons/fa';
 import React from 'react';
+import Link from 'next/link';
 
 function FifthPage() {
   return (
@@ -7,7 +8,9 @@ function FifthPage() {
       <div className="items-left md:w-1/2 md:text-left md:pl-20">
         <p className="text-4xl text-gray-700 my-5">Premier Current Account</p>
         <p className="p-3 text-left font-bold text-4xl my-10 md:w-3/5">Take care of your wealth with the highest level of personal service</p>
-        <button type="button" className="bg-yellow-900 text-white text-sm text-bold rounded hover:border hover:border-white p-3 mx-2">APPLY NOW</button>
+        <Link href="/applynow" className="bg-yellow-900 text-white text-sm text-bold rounded hover:border hover:border-white p-3 mx-2">
+          APPLY NOW
+        </Link>
         <button type="button" className="bg-yellow-900 text-white text-sm rounded text-bold hover:border hover:border-white p-3 mx-2">DOWNLOAD PDF FORM</button>
       </div>
       <div className="items-left md:w-1/2 py-10 md:pl-20">
