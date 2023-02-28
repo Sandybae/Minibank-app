@@ -1,5 +1,5 @@
 {
-  "extends": ["airbnb", "next", "next/core-web-vitals"],
+  "extends": ["airbnb", "next", "next/core-web-vitals" ],
   "rules": {
     "jsx-a11y/label-has-associated-control": [
       2,
