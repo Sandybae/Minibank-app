@@ -1,5 +1,6 @@
 import { FaCheck } from 'react-icons/fa';
 import React from 'react';
+import Link from 'next/link';
 
 function SixthPage() {
   return (
@@ -7,7 +8,9 @@ function SixthPage() {
       <div className="items-left md:w-1/2 text-left md:pl-20">
         <p className="text-4xl text-gray-900 my-5">Diaspora Current Account</p>
         <p className="text-left font-bold text-4xl my-10 md:w-3/5">Manage and move your money more easily while living and working away from home</p>
-        <button type="button" className="bg-gray-700 text-white text-sm text-bold rounded hover:border hover:border-white p-3 mx-2">APPLY NOW</button>
+        <Link href="/applynow" className="bg-gray-700 text-white text-sm text-bold rounded hover:border hover:border-white p-3 mx-2">
+          APPLY NOW
+        </Link>
         <button type="button" className="bg-gray-700 text-white text-sm rounded text-bold hover:border hover:border-white p-3 mx-2">DOWNLOAD PDF FORM</button>
       </div>
       <div className="items-left md:w-1/2 py-10 md:pl-20">
