@@ -1,11 +1,11 @@
 import React from 'react';
-import FifthPage from '../components/MainPage/FifthPage';
-import FirstPage from '../components/MainPage/FirstPage';
-import FourthPage from '../components/MainPage/FourthPage';
-import LastPage from '../components/MainPage/LastPage';
-import SecondPage from '../components/MainPage/SecondPage';
-import SixthPage from '../components/MainPage/SixthPage';
-import ThirdPage from '../components/MainPage/Thirdpage';
+import PremierCurrent from '../components/MainPage/PremierCurrent';
+import CurrentAccount from '../components/MainPage/CurrentAccount';
+import AdvantageCurrent from '../components/MainPage/AdvantageCurrent';
+import Share from '../components/MainPage/Share';
+import ClassicCurrent from '../components/MainPage/ClassicCurrent';
+import DiasporaCurrent from '../components/MainPage/DiasporaCurrent';
+import StudentCurrent from '../components/MainPage/StudentCurrent';
 import Footer from './footer';
 import Navbar from './Navbar';
 
@@ -14,13 +14,13 @@ export default function Home() {
     <div>
       <Navbar />
       <div>
-        <FirstPage />
-        <SecondPage />
-        <ThirdPage />
-        <FourthPage />
-        <FifthPage />
-        <SixthPage />
-        <LastPage />
+        <CurrentAccount />
+        <ClassicCurrent />
+        <StudentCurrent />
+        <AdvantageCurrent />
+        <PremierCurrent />
+        <DiasporaCurrent />
+        <Share />
       </div>
       <Footer />
     </div>
